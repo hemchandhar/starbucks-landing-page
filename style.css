@@ -172,7 +172,7 @@ header ul li a {
     display: none;
   }
   section {
-    padding: 20px;
+    padding: 20px 20px 120px;
   }
   .content {
     flex-direction: column;
@@ -183,5 +183,25 @@ header ul li a {
   }
   .content .textBox {
     max-width: 100%;
+  }
+  .content .imgBox {
+    max-width: 100%;
+    justify-content: center;
+  }
+  .content .imgBox img {
+    max-width: 300px;
+  }
+  .thumb li img {
+    max-width: 40px;
+  }
+  .circle {
+    clip-path: circle(400px at center bottom);
+  }
+  .sci {
+    background: #017143;
+    right: 0;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
 }
